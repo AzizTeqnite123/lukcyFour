@@ -1,0 +1,409 @@
+@media (max-width : 1200px) {
+
+    .giftForYou,
+    .whyChooseLuckyFour,
+    .customerReviews,
+    .premiumQualityMain,
+    .faqMain {
+        margin: 100px 0;
+    }
+
+    .giftForYouBgHldr {
+        padding: 60px 40px 100px;
+    }
+
+    .headingH2 {
+        font-size: 50px;
+        line-height: 54px;
+    }
+
+    .giftForYouRow {
+        min-height: 350px;
+    }
+
+    .premiumQualityMainBgHldr {
+        padding: 0 30px 0;
+    }
+
+    .premiumQualityMainImage {
+        max-height: 530px;
+    }
+
+    .premiumQualityMainImage img {
+        transform: translateY(-25px);
+    }
+
+    .reviewcUScONTENHldr,
+    .custoReviewBoxContent {
+        padding: 20px;
+    }
+}
+
+@media (max-width : 1024px) {
+
+    .giftForYou,
+    .whyChooseLuckyFour,
+    .customerReviews,
+    .premiumQualityMain,
+    .faqMain {
+        margin: 80px 0;
+    }
+
+    .giftForYou .heading__topSecFrUGft,
+    .Heading__Site__Hldr {
+        margin-bottom: 40px;
+    }
+
+    .headingH2 {
+        font-size: 39px;
+        line-height: 43px;
+    }
+
+    .giftForYouRow {
+        min-height: 320px;
+        max-width: 90%;
+    }
+
+    .giftFruBtmButtles .giftForYouBullets:nth-child(1) {
+        transform: translateY(-20px) translateX(20px);
+    }
+
+    .giftFrubTopBlts .giftForYouBullets:nth-child(2) {
+        transform: translateX(-10px);
+    }
+
+    .giftForYouBgHldr {
+        padding: 50px 30px 80px;
+        border-radius: 20px;
+    }
+
+    .Heading__Site__Hldr p {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .luckyChooseCard {
+        min-height: 420px;
+    }
+
+    .luckyChoseCardBtmHeading h3 {
+        font-size: 18px;
+    }
+
+    .luckyChoseCardBtmContent {
+        padding: 15px;
+    }
+
+    .customerReviews .custoReviewBox {
+        gap: 15px;
+    }
+
+    .reviewcUScONTENHldr,
+    .custoReviewBoxContent {
+        padding: 15px;
+    }
+
+    .custoReviewBoxContent {
+        gap: 15px;
+    }
+
+    .reviewcUScONTENHldr span {
+        font-size: 31px;
+    }
+
+    .rating_star {
+        --star-size: 25px;
+    }
+
+    .cusRevCnt p {
+        font-size: 15px;
+    }
+
+    .cusRevAuthNme img {
+        min-width: 45px;
+        height: 45px;
+        width: 45px;
+    }
+
+    .cusRevAuthNme span {
+        font-size: 16px;
+    }
+
+    .premiumQualityMainBullets ul li {
+        font-size: 18px;
+    }
+
+    .premiumQualityMainImage {
+        max-height: 430px;
+        transform: translateX(20px);
+    }
+
+    .premiumQualityMainContent {
+        padding: 50px 0;
+    }
+
+    .premiumQualityMainRow {
+        gap: 5px;
+        grid-template-columns: 1.2fr 1fr;
+    }
+
+    .premiumQualityMainBgHldr {
+        padding: 0 20px 0;
+        border-radius: 20px;
+    }
+
+    .premiumQualityMainBullets ul li,
+    .giftForYouBullets span {
+        font-size: 15px;
+    }
+
+    .premiumQualityMainImage img {
+        transform: translateY(-22px);
+    }
+
+    .accordion-item-header,
+    .accordion-item-body-content {
+        padding: 20px 12px;
+    }
+
+    .accordion-item-header h5 {
+        font-size: 18px;
+    }
+
+    .accordion-item-header::after {
+        content: "";
+        height: 12px;
+        width: 12px;
+        margin-right: 5px;
+    }
+
+    .custoReviewBoxImage,
+    .custoReviewBoxContent {
+        border-radius: 15px;
+    }
+
+    .Heading__Site__Hldr {
+        max-width: 600px;
+    }
+
+    .luckyChooseCard {
+        border-radius: 15px;
+    }
+
+    .luckyChoseCartTopHeartIc {
+        height: 30px;
+        width: 30px;
+        padding: 8px;
+    }
+}
+
+@media (max-width : 768px) {
+
+    .giftForYou,
+    .whyChooseLuckyFour,
+    .customerReviews,
+    .premiumQualityMain,
+    .faqMain {
+        margin: 60px 0;
+    }
+
+    .giftForYouBgHldr {
+        padding: 40px 20px 60px;
+        border-radius: 20px;
+    }
+
+    .headingH2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .giftForYouRow {
+        min-height: 300px;
+        max-width: 100%;
+    }
+
+    .luckyChooseCard {
+        min-height: 380px;
+    }
+
+    .reviewcUScONTENHldr span {
+        font-size: 28px;
+    }
+}
+
+@media (max-width : 576px) {
+
+    .giftForYou,
+    .whyChooseLuckyFour,
+    .customerReviews,
+    .premiumQualityMain,
+    .faqMain {
+        margin: 40px 0;
+    }
+
+    .giftForYouBgHldr {
+        padding: 40px 20px 40px;
+        border-radius: 15px;
+    }
+
+    .giftForYou .heading__topSecFrUGft,
+    .Heading__Site__Hldr {
+        margin-bottom: 30px;
+    }
+
+    .headingH2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .giftForYouRow {
+        min-height: 500px;
+    }
+
+    .giftFrubTopBlts,
+    .giftFruBtmButtles {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .giftForYouBullets {
+        display: block;
+        transform: unset !important;
+        position: relative;
+    }
+
+    .giftForYouBullets span {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .giftForYouBullets img {
+        position: absolute;
+        top: -8px;
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 18px;
+    }
+
+    .Heading__Site__Hldr p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .luckyChooseCard {
+        min-height: 350px;
+        border-radius: 12px;
+        padding: 10px;
+    }
+
+    .luckyChoseCardBtmHeading {
+        padding: 10px 15px;
+        border-radius: 10px;
+    }
+
+    .luckyChoseCardBtmHeading h3 {
+        font-size: 16px;
+    }
+
+    .luckyChoseCardBtmContent {
+        padding: 12px;
+    }
+
+    .luckyChoseCardBtmContent p {
+        font-size: 14px;
+    }
+
+    .reviewcUScONTENHldr span {
+        font-size: 23px;
+    }
+
+    .reviewcUScONTENHldr,
+    .custoReviewBoxContent {
+        padding: 10px 15px;
+        border-radius: 12px;
+    }
+
+    .custoReviewBoxContent {
+        gap: 10px;
+    }
+
+    .rating_star {
+        --star-size: 20px;
+    }
+
+    .cusRevCnt p {
+        font-size: 14px;
+    }
+
+    .cusRevAuthNme img {
+        min-width: 40px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .cusRevAuthNme span {
+        font-size: 13px;
+    }
+
+    .accordion-item-header,
+    .accordion-item-body-content {
+        padding: 15px 10px;
+    }
+
+    .accordion-item-header::after {
+        height: 10px;
+        width: 10px;
+        margin-right: 2px;
+    }
+
+    .accordion-item-header h5 {
+        font-size: 16px;
+    }
+
+    .accordion-item-body-content :is(p, ul li, ol li) {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .premiumQualityMainRow {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .premiumQualityMainContent {
+        padding: 40px 0;
+        max-width: 200px;
+        gap: 40px;
+    }
+
+    .premiumQualityMainBullets ul {
+        gap: 10px;
+    }
+
+    .premiumQualityMainBgHldr {
+        padding: 0px 15px 0;
+        border-radius: 15px;
+    }
+
+    .premiumQualityMain {
+        padding: 0 0 60px 0;
+    }
+
+    .premiumQualityMainImage img {
+        transform: unset;
+        height: 110%;
+    }
+
+    .premiumQualityMainImage {
+        max-height: 100%;
+        transform: unset;
+        position: absolute;
+        right: -90px;
+        width: 70%;
+    }
+
+    .premiumQualityMainBullets ul li,
+    .giftForYouBullets span {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

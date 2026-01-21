@@ -293,6 +293,14 @@ img {
     z-index: 2;
 }
 
+.whyChooseLuckyFour {
+    overflow: hidden;
+}
+
+.whyChooseLuckyFour .swiper {
+    overflow: unset;
+}
+
 /* WHY CHOOS LUCKY FOUR */
 
 
@@ -358,10 +366,11 @@ img {
     letter-spacing: -.3px;
     text-align: center;
     color: #fff;
+    text-wrap: balance;
 }
 
 .reviewcUSiMAGEhLDR {
-    height: 353px;
+    height: 100%;
     width: 100%;
 }
 
@@ -432,6 +441,14 @@ img {
     left: 0;
     width: calc(var(--rating) / 5 * 100%);
     overflow: hidden;
+}
+
+.customerReviews {
+    overflow: hidden;
+}
+
+.customerReviews .swiper {
+    overflow: unset;
 }
 
 /* CUSTOMER REVIEWS SECTION */
@@ -528,11 +545,10 @@ img {
 }
 
 .premiumQualityMainBgHldr {
-    padding: 0 70px 0;
+    padding: 0 63px 0;
     background: linear-gradient(-212deg, #290805 0%, #400708 66%, #5D0A0D 100%);
     border-radius: 30px;
     position: relative;
-    min-height: 580px;
 }
 
 .premiumQualityMainRow {
@@ -546,7 +562,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 70px 0;
+    padding: 63px 0;gap: 10px;
 }
 
 .premiumQualityMainContent * {
@@ -589,7 +605,11 @@ img {
     height: 100%;
     width: 100%;
     max-height: 610px;
-    transform: translateY(-16px);
+}
+
+.premiumQualityMainImage img {
+    height: 105%;
+    transform: translateY(-30px);
 }
 
 /* PREMIUM QUALITY SECTION */

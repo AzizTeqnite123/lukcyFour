@@ -89,18 +89,18 @@ document.addEventListener("DOMContentLoaded", function () {
                             spaceBetween: 10,
                         },
                         576: {
-                            slidesPerView: 2.1,
-                            spaceBetween: 20,
+                            slidesPerView: 2,
+                            spaceBetween: 15,
                         },
                         769: {
-                            slidesPerView: 2.7,
-                            spaceBetween: 20,
+                            slidesPerView: 2.3,
+                            spaceBetween: 15,
                         },
                         1025: {
                             slidesPerView: 2.5,
                             spaceBetween: 20,
                         },
-                        1150: {
+                        1201: {
                             slidesPerView: 3,
                             spaceBetween: 30,
                         },
@@ -144,18 +144,18 @@ document.addEventListener("DOMContentLoaded", function () {
                             spaceBetween: 10,
                         },
                         576: {
-                            slidesPerView: 2,
-                            spaceBetween: 20,
+                            slidesPerView: 1.3,
+                            spaceBetween: 15,
                         },
                         769: {
-                            slidesPerView: 2,
-                            spaceBetween: 20,
+                            slidesPerView: 1.7,
+                            spaceBetween: 15,
                         },
                         1025: {
                             slidesPerView: 2,
                             spaceBetween: 20,
                         },
-                        1150: {
+                        1201: {
                             slidesPerView: 2,
                             spaceBetween: 20,
                         },
